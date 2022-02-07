@@ -1,0 +1,60 @@
+.search-container{
+  margin-top: 35px;
+  width: 50%;
+  margin: 55px auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container input {
+  flex-basis: 300px;
+  margin-right: 8px;
+}
+
+.search-container button {
+  flex-basis: 100px;
+}
+
+.text-result {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.search-Name{
+  color: black
+}
+
+.album-container {
+  background-color: white;
+  flex-wrap: wrap;
+  max-width: 80vw;
+  margin: 30px auto;
+  justify-content: center;
+  gap: 10px;
+}
+
+.album-container li {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  text-align: center;
+  background-color: rgba(10, 10, 10, 0.787);
+  padding-top: 10px;
+  border-radius: 8px;
+}
+
+.album-name{
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+}
+
+.album-container li:hover{
+  background-color: rgba(18, 18, 18, 1);
+  padding: 1px;
+}
+

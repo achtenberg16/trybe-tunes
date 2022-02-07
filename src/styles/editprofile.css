@@ -1,0 +1,33 @@
+.edit-infos{
+  margin: 100px auto;
+  /* border: solid 1px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 300px;
+  gap: 18px
+}
+
+.edit-infos label {
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.edit-infos label input {
+  width: 200px;
+  text-align: center;
+}
+
+.edit-infos button {
+  align-self: center;
+  margin-left: 35px;
+}
+
+@media (max-width: 400px) {
+  .edit-infos label{font-size: 1em;}
+  .edit-infos label input {
+    width:100px;
+  }
+  .edit-infos{width: 150px;}
+}

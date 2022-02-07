@@ -1,0 +1,17 @@
+.card-musics{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.favorites-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-musics span {
+  color: #1ed760;
+  text-align: center;
+}

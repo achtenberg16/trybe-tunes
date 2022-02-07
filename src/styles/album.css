@@ -1,0 +1,27 @@
+.album-musics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.album-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+
+.album-image img {
+  flex-basis: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;  
+}
+
+.tracks-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

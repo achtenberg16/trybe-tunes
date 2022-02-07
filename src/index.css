@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600;700;900&display=swap');
+
+*{margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;}
+
+body {
+  margin: 0;
+  font-family: 'Epilogue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FAFAFA;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  font-size: 0.7em;
+}
+
+input{
+  text-align: start;
+  cursor: text;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  padding: 1px 2px;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+button {
+  position: relative;
+  background-color: var(--background-base,#1ed760);
+  color: var(--text-base,#000000);
+  border-radius: 500px;
+  font-size: inherit;
+  padding: 4px 12px;
+}
+
+input:focus-within { 
+  border: solid red
+}
+
+a{
+  color: white;
+}
