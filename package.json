@@ -1,7 +1,7 @@
 {
-  "homepage": "http://achtenberg16.github.io/trybe-tunes",
   "name": "trybetunes",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "engines": {
     "node": "16"
